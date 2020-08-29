@@ -18,7 +18,7 @@ chmod 755 ./install.sh
 **What you need for Marquee** 
 
   * Image file for default marquee "maintitle.png" in "/home/pi/PieMarquee2/marquee/system/" folder
-  * Syetem image for each system "systemname.png" in "/home/pi/PieMarquee2/marquee/system/" folder (same as rom folder eg: snes for super nintendo, fba for finalburn)
+  * Syetem image for each system "systemname.png" in "/home/pi/PieMarquee2/marquee/system/" folder (same as rom folder eg: snes for super nintendo, megadrive for genesis)
   * Marquee image for each game as "/home/pi/PieMarquee2/marquee/[system name]/[gamefilename.png]"   
     Note: fba, mame-advance, mame-libretro, mame-mame4all will share the folder as arcade  
     (eg: for galaga, fbneo core - /home/pi/PieMarquee2/marquee/arcade/galaga.png  

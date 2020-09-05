@@ -14,6 +14,8 @@ cd PieMarquee2
 chmod 755 ./install.sh
 ./install.sh
 ```
+You may need to change framebuffer resolution. add this line in /opt/retropie/configs/all/autostart.sh
+fbset -fb /dev/fb0 -g 1280 720 1280 720 16
 
 **What you need for Marquee** 
 

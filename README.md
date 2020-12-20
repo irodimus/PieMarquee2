@@ -29,16 +29,22 @@ chmod 755 ./install-pi4es.sh
 
 **What you need for Marquee** 
 
-  * Default marquee file is "**maintitle.png**" in "`/home/pi/PieMarquee2/marquee/system/`" folder
-  * You can set default marquee as Video. Copy video file "**maintitle.mp4**" to "`/home/pi/PieMarquee2/marquee/system/`" folder (*optional*)
+  * Default marquee file is "**maintitle.png**" in "`/home/pi/PieMarquee2/marquee/system/`" folder  
+  
+  * You can set default marquee as video.  
+    Copy video file "**maintitle.mp4**" to "`/home/pi/PieMarquee2/marquee/system/`" folder (*optional*)
+    
   * Marquee image for each game should be in "`/home/pi/PieMarquee2/marquee/[system name]/[gamefilename.png]`"   
     **Note**: fba, mame-advance, mame-libretro and mame-mame4all will share the system folder name as `arcade`  
     (eg: for galaga in fba folder - /home/pi/PieMarquee2/marquee/arcade/galaga.png  
          for mario.zip in nes folder - /home/pi/PieMarquee2/marquee/nes/mario.png )
+         
   * If there is no game marquee file then PieMarquee2 will show system marquee.  
     Place for system marquee "**systemname.png**" is "`/home/pi/PieMarquee2/marquee/system/`" folder  
-    (eg: **snes** for super nintendo, **megadrive** for genesis and megadrive )  
-  * You can use intro Video file. Copy video file "**intro.mp4**" to "`/home/pi/PieMarquee2/`" folder (*optional*)
-  * Instruction panel image for each game "**gamefilename.png**" in "`/home/pi/PieMarquee2/marquee/instruction`" folder (*optional*)
-  * publisher image for publisher "**publishername.png**" in "`/home/pi/PieMarquee2/marquee/publisher`" folder (*optional, defined in gamelist_short.xml* )
+    (eg: **snes** for super nintendo, **megadrive** for genesis and megadrive )
+    
+  * Video boot intro can be set. Copy video file "**intro.mp4**" to "`/home/pi/PieMarquee2/`" folder (*optional*)
   
+  * instruction panel image for each game "**gamefilename.png**" goes to "`/home/pi/PieMarquee2/marquee/instruction`" folder (*optional*)
+  * publisher image for publisher "**publishername.png**" goes to "`/home/pi/PieMarquee2/marquee/publisher`" folder (*optional, defined in gamelist_short.xml* )  
+    **NOTE :** Setting instruction or publisher images makes PieMarquee2 to show marquee of game, instruction and publisher sequentially.)

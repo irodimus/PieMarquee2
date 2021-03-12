@@ -1,4 +1,5 @@
 ![marquee example00](piemarquee00.jpg)
+*Cabinet with PieMarquee2 by Justin Fite*
 
 # PieMarquee2
 Enhanced Marquee plugin for RetroPie, Rpi4  

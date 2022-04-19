@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 INTRO = "/home/pi/PieMarquee2/intro.mp4"
 ## for DPI screen
 #VIEWER = "/opt/retropie/configs/all/PieMarquee2/omxiv-marquee /tmp/marquee.txt -f -b -d 4 -t 5 -T blend --duration 900 > /dev/null 2>&1 &"
-## for Pi4 hdmi1
+## for Pi4 hdmi
 VIEWER = "/opt/retropie/configs/all/PieMarquee2/omxiv-marquee /tmp/marquee.txt -f -b -d 7 -t 5 -T blend --duration 900 > /dev/null 2>&1 &"
 
 arcade = ['arcade', 'fba', 'mame-advmame', 'mame-libretro', 'mame-mame4all']
@@ -82,7 +82,7 @@ while True:
             pid = words[1]
             if os.path.isfile("/proc/"+pid+"/cmdline") == False:
                 continue
-            path = run_cmd("strings -n 1 /proc/"+pid+"/cmdline | grep roms")
+            path = run_cmd("strings -n 1 /proc/"+pid+"/cmdline | grep roms | head -1")
             path = path.replace('/home/pi/RetroPie/roms/','')
             if len(path.replace('"','').split("/")) < 2:
                 continue

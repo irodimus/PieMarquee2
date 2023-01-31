@@ -7,7 +7,7 @@ Enhanced Marquee plugin for RetroPie, Rpi4
 
 original code by RiNa from raspigamer forum (https://cafe.naver.com/raspigamer/)   
 https://github.com/rinalim/PieMarquee2
-
+All the credits goes to RiNa.
 ## Install
 ```
 cd /home/pi
